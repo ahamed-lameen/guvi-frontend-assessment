@@ -1,0 +1,22 @@
+/**
+* 
+* style.css
+* @author - Lameen
+* @date - 14/04/2023
+**/
+
+.drop-down {
+    border-radius: 7px;
+    color: #737373;
+    border: 1px solid #e6e6e6;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.field-error {
+    margin: 4px 0 10px 0;
+    font-size: 11px;
+    color: #cc4539;
+    text-align: left;
+}

@@ -1,0 +1,27 @@
+/**
+* 
+* style.css
+* @author - Lameen
+* @date - 15/04/2023
+**/
+
+.alert-success {
+    background-color: #def0d8;
+    margin: 0 0 10px 0;
+    border-radius: 7px;
+    padding: 6px 12px;
+}
+.alert-error {
+    background-color: #f2dedf;
+    margin: 0 0 10px 0;
+    border-radius: 7px;
+    padding: 6px 12px;
+}
+.message-success {
+    color: #598163;
+    text-align: left;
+}
+.message-error {
+    color: #9b494e;
+    text-align: left;
+}

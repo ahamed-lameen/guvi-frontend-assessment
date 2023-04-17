@@ -1,0 +1,23 @@
+/**
+* 
+* style.css
+* @author - Lameen
+* @date - 13/04/2023
+**/
+
+.about-box {
+    border-radius: 7px;
+    color: #333333;
+    border: 1px solid #e6e6e6;
+    padding: 10px 16px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.field-error {
+    margin: 4px 0 10px 0;
+    font-size: 11px;
+    color: #cc4539;
+    text-align: left;
+}

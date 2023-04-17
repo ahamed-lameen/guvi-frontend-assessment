@@ -1,0 +1,57 @@
+/**
+* 
+* style.css
+* @author - Lameen
+* @date - 13/04/2023
+**/
+
+.profile-box {
+    width: 720px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3% auto 0 auto;
+    box-shadow: 0px 4px 24px #0000001a;
+    border-radius: 2px;
+    padding: 40px 50px 30px 50px;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.cell-1 {
+    flex: 1;
+}
+.profile-logo {
+    font-size: 40px;
+    color:  #05a82e;
+}
+.profile-title {
+    font-size: 47px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 0 35px 0;
+}
+.button-container {
+    margin: 0 15px 10px 0;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .profile-box {
+        width: auto;
+        margin: 3% 25px 0 25px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .mr-15 {
+        margin-right: 0;
+    }
+    .button-container {
+        margin: 0 0 10px 0;
+    }
+}
